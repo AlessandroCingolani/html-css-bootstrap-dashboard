@@ -15,13 +15,14 @@
 
 /* MAIN CONTAINER PAGE */
 
-.ac_container {
+.main_container {
   height: 100vh;
 }
 
 /* NAVBAR TOP */
 
 .top-bar {
+  width: 100%;
   height: 70px;
 }
 
@@ -30,4 +31,21 @@
 .ac_aside {
   width: 70px;
   height: calc(100% - 70px);
+}
+
+.ac_container {
+  width: calc(100% - 70px);
+  height: calc(100% -70px);
+  overflow: auto;
+}
+
+/* MEDIA QUERY*/
+@media screen and (min-width:768px) {
+  .ac_aside {
+    width: 150px;
+  }
+
+  .ac_container {
+    width: calc(100% - 150px);
+  }
 }
