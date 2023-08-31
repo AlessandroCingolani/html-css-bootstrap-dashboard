@@ -12,3 +12,22 @@
   border: 1px solid;
   min-height: 80px;
 }
+
+/* MAIN CONTAINER PAGE */
+
+.ac_container {
+  height: 100vh;
+}
+
+/* NAVBAR TOP */
+
+.top-bar {
+  height: 70px;
+}
+
+/* ASIDE BAR */
+
+.ac_aside {
+  width: 70px;
+  height: calc(100% - 70px);
+}
