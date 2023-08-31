@@ -47,7 +47,7 @@
 
     <div class="ac_container debug-box">
       <div class="container-fluid">
-        <div class="container d-flex flex-column flex-md-row justify-content-between ">
+        <div class="d-flex flex-column flex-md-row justify-content-between ">
           <div class="order-md-3">
             <span>nuovo studente</span>
             <span>+</span>
@@ -62,12 +62,93 @@
           </div>
         </div>
         
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-8">tabella</div>
-            <div class="col-12 col-md-8 order-md-1 ">Faq</div>
-            <div class="col-12 col-md-4 order-md">todo</div>
-            <div class="col-12 col-md-4 order-md-2 ">graph</div>
+        <!-- TABLE -->
+        <div class="container-fluid">
+          <div class="row start">
+            <div class="col-12 h-100  col-md-8">
+              <table class="table">
+                <h2>sadsa</h2>
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- ACCORDION FAQ -->
+            
+            <div class="col-12 h-100 col-md-8 order-md-1 ">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2>F.A.Q</h2>
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+            <!-- TODO -->
+            <div class="col-12 h-100 col-md-4 order-md">a</div>
+
+            <!-- GRAPH -->
+            <div class="col-12 h-100 col-md-4 order-md-2 ">
+              <img class="img-fluid" src="img/stats.jpeg" alt="">
+            </div>
           </div>
         </div>
 
