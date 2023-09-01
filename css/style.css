@@ -43,6 +43,7 @@ nav .ac_top-nav {
 .ac_aside {
   width: 70px;
   height: calc(100% - 70px);
+  background-color: rgb(5, 30, 52);
   background-image:url("/img/sidebar-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
