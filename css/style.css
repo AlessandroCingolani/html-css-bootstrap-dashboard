@@ -83,8 +83,10 @@ nav .ac_top-nav {
 }
 
 .ac_aside a {
+  font-size: .9rem;
   text-decoration: none;
   color: white;
+  padding: 5px;
 }
 
 .ac_aside a:hover {
