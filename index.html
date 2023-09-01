@@ -19,7 +19,7 @@
         <a href="#"><img class="logo-mobile d-md-none " src="img/mobile-logo.png" alt=""></a>
         <a href="#"><img class="logo-desk d-none d-md-block" src="img/logo.svg" alt=""></a>
         <form class="w-100 me-5 ms-5" role="search">
-          <input class="form-control " type="search" placeholder="Prova a cercare:Lezioni di Laravel" aria-label="Search">
+          <input class="form-control"  type="search" placeholder="Prova a cercare:Lezioni di Laravel" aria-label="Search">
         </form>
         <span class="me-4 d-none d-md-block"><i class="fa-solid fa-list"></i></span>
         <span class="me-4 d-none d-md-block "><i class="fa-solid fa-circle-question d-md-block"></i></span>
@@ -28,14 +28,13 @@
         <ul class="navbar-nav  mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-bell"></i>
+              <i class="fa-solid fa-bell orange-bell"></i>
             </a>
             
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Profilo</a></li>
+              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
             </ul>
           </li>
         </ul>
@@ -151,9 +150,12 @@
                   </div>
               </div>
             </div>
-            <div class="col d-flex ">
-              <h3>boolean</h3>
-              <span>btn</span>
+            <div class="col  ">
+              <h3>Boolean</h3>
+              <button type="button" class="btn ac_btn-boolean"
+                style="--bs-btn-padding-y: .10rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .55rem;">
+                Piano blaze
+              </button>
             </div>
             <div class="col d-flex flex-column order-md-2 justify-content-md-center   ">
               <span>Studenti online negli ultimi 30 minuti</span>
@@ -300,15 +302,10 @@
                 <div class="card-header">
                   <h2>TODO</h2>
                 </div>
-
-
-
-
-
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                       <label class="form-check-label" for="flexCheckChecked">
                         Kickoff nuove classi
                       </label>
@@ -324,8 +321,8 @@
                   </li>
                   <li class="list-group-item">
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckD">
-                      <label class="form-check-label" for="flexCheckDefault">
+                      <input class="form-check-input" type="checkbox" value="" id="checkstudent">
+                      <label class="form-check-label" for="checkstudent">
                         Controllare username github studenti
                       </label>
                     </div>
