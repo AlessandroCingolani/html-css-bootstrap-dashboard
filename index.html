@@ -24,7 +24,12 @@
         <a href="#"><img class="logo-desk d-none d-md-block" src="img/logo.svg" alt=""></a>
         <!-- TODO PUT ICON SEARCH -->
         <form class="w-100 me-5 ms-5" role="search">
-          <input class="form-control ac_my-bg "  type="search" placeholder="Prova a cercare:Lezioni di Laravel" aria-label="Search">
+          <div class="input-group ">
+            <span class="input-group-text ac_my-bg" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input class="form-control ac_my-bg "  type="search" placeholder="Prova a cercare:Lezioni di Laravel" aria-label="Search">
+            
+          </div>
+          
         </form>
         <span class="me-4 d-none d-md-block"><i class="fa-solid fa-list"></i></span>
         <span class="me-4 d-none d-md-block "><i class="fa-solid fa-circle-question d-md-block"></i></span>
@@ -100,10 +105,13 @@
                         <label for="cognome" class="form-label">Cognome</label>
                         <input type="text" class="form-control" id="cognome">
                       </div>
-        
+                      
                       <div class="col-12 col-md-6 mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="basic-addon1">@</span>
+                          <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
   
                       </div>
   
