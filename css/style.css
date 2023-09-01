@@ -35,6 +35,11 @@
   width: 100% !important;
 }
 
+.ac_btn-boolean {
+  color: white;
+  background-color: rgb(22, 91, 186);
+}
+
 /* NAVBAR TOP */
 
 .top-bar {

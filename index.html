@@ -74,7 +74,7 @@
     <div class="ac_container ">
       <div class="off-canvas-sect">
         <div class="container-fluid">
-          <div class="row p-3 flex-column flex-md-row justify-content-between ">
+          <div class="row pb-3 pt-3 flex-column flex-md-row justify-content-between ">
             <div class="col d-flex  order-md-3 justify-content-md-end ">
               <span class="text-capitalize">nuovo studente</span>
               <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
@@ -109,23 +109,23 @@
                       </div>
   
                       <div class="col-12 mb-3">  
-                        <label for="exampleInputPassword1" class="form-label">Indirizzo</label>
-                        <input type="password" class="form-control" id="indirizzo">
+                        <label for="indirizzo" class="form-label">Indirizzo</label>
+                        <input type="text" class="form-control" id="indirizzo">
                       </div>
   
                       <div class="col-6 mb-3">  
-                        <label for="exampleInputPassword1" class="form-label">Città</label>
-                        <input type="password" class="form-control" id="">
+                        <label for="città" class="form-label">Città</label>
+                        <input type="text" class="form-control" id="città">
                       </div>
   
                       <div class="col-4 mb-3">  
-                        <label for="exampleInputPassword1" class="form-label">Stato</label>
-                        <input type="password" class="form-control" id="">
+                        <label for="stato" class="form-label">Stato</label>
+                        <input type="text" class="form-control" id="stato">
                       </div>
   
                       <div class="col-2 mb-3">  
-                        <label for="exampleInputPassword1" class="form-label">CAP</label>
-                        <input type="password" class="form-control" id="">
+                        <label for="cap" class="form-label">CAP</label>
+                        <input type="text" class="form-control" id="cap">
                       </div>
   
                       <div class="col-12 mb-3">  
@@ -143,21 +143,44 @@
                       <div class="col">
                         <button type="submit" class="btn btn-primary">Salva</button>
                         <button type="reset" class="btn btn-warning">Svuota</button>
-                      </div>
-                      
-                      
+                      </div>                    
                     </form>
                   </div>
               </div>
             </div>
-            <div class="col  ">
-              <h3>Boolean</h3>
-              <button type="button" class="btn ac_btn-boolean"
-                style="--bs-btn-padding-y: .10rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .55rem;">
-                Piano blaze
-              </button>
+
+            <!-- BOOLEAND WITH BTN -->
+            <div class="col d-inline-block ">
+              <div>
+                <span class="fs-4 fw-bolder ">Boolean</span>
+                <span type="button" class="btn ac_btn-boolean align-middle "
+                  style="--bs-btn-padding-y: .03rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">
+                  Piano blaze
+                </span>
+              </div>
+              <div>
+                <span type="button" class="btn ac_btn-boolean align-middle "
+                  style="--bs-btn-padding-y: .03rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">
+                  3 app
+                </span>
+                <i class="fa-solid fa-angles-right"></i>
+                <span type="button" class="btn ac_btn-boolean align-middle "
+                  style="--bs-btn-padding-y: .03rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">
+                  Boolean mobile app
+                </span>
+                <span type="button" class="btn ac_btn-boolean align-middle "
+                  style="--bs-btn-padding-y: .03rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">
+                  Boolean web app
+                </span>
+                <span type="button" class="btn ac_btn-boolean align-middle "
+                  style="--bs-btn-padding-y: .03rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .50rem;">
+                  Boolean blog app
+                </span>
+              </div>
             </div>
-            <div class="col d-flex flex-column order-md-2 justify-content-md-center   ">
+
+            <!-- LSTA ONLINE STUDENTS -->
+            <div class="col-3 d-flex flex-column order-md-2 justify-content-md-center   ">
               <span>Studenti online negli ultimi 30 minuti</span>
               <span class="fs-3 ">125</span>
             </div>
