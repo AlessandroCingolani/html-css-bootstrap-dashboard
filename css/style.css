@@ -57,6 +57,10 @@ nav .ac_top-nav {
   overflow: auto;
 }
 
+.off-canvas-sect {
+  background-color: rgb(27, 114, 232);
+}
+
 /* MEDIA QUERY*/
 @media screen and (min-width:768px) {
   .ac_aside {
