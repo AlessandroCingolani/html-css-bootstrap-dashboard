@@ -31,6 +31,15 @@
   background-color: rgb(27, 114, 232);
 }
 
+.ac_canvas-btn {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  font-size: 0.7rem;
+  border: 1px solid white;
+  color: white;
+}
+
 .off_ac_canv {
   width: 100% !important;
 }
@@ -82,8 +91,35 @@ nav .ac_top-nav {
 }
 
 .ac_aside a:hover {
-  background-color: aqua;
+  background-color: rgb(129, 141, 154);
 }
+
+/* TABLE */
+
+th img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.ac_warning {
+  color: white;
+}
+
+.action_ac_btn {
+  cursor: pointer;
+  padding: 4px;
+  height: 25px;
+  width: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.505);
+  border-radius: 3px;
+  color: gray;
+}
+
+td i {
+  text-align: center;
+  font-size: .9rem;
+}
+
 
 /* MEDIA QUERY*/
 @media screen and (min-width:768px) {
