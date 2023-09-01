@@ -1,5 +1,5 @@
 /* DEBUG */
-.debug-box{
+/* .debug-box{
   background-color: rgba(255, 0, 0, .2);
   border: 1px solid black;
 }
@@ -10,12 +10,29 @@
 [class^='container'],[class^='col']{
   background-color: rgba(100, 148, 237, 0.209);
   border: 1px solid;
-}
+} */
 
 /* MAIN CONTAINER PAGE */
 
 .main_container {
   height: 100vh;
+}
+
+/* CANVAS */
+
+.ac_container {
+  width: calc(100% - 70px);
+  height:calc(100% - 70px);
+  overflow: auto;
+}
+
+.off-canvas-sect {
+  color: white;
+  background-color: rgb(27, 114, 232);
+}
+
+.off_ac_canv {
+  width: 100% !important;
 }
 
 /* NAVBAR TOP */
@@ -50,15 +67,13 @@ nav .ac_top-nav {
   background-position: left;  
 }
 
-
-.ac_container {
-  width: calc(100% - 70px);
-  height:calc(100% - 70px);
-  overflow: auto;
+.ac_aside a {
+  text-decoration: none;
+  color: white;
 }
 
-.off-canvas-sect {
-  background-color: rgb(27, 114, 232);
+.ac_aside a:hover {
+  background-color: aqua;
 }
 
 /* MEDIA QUERY*/
@@ -70,4 +85,10 @@ nav .ac_top-nav {
   .ac_container {
     width: calc(100% - 150px);
   }
+
+  .off_ac_canv {
+    width: 50% !important;
+  }
+  
+
 }
