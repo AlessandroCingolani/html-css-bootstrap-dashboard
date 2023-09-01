@@ -80,7 +80,7 @@
       <div class="off-canvas-sect">
         <div class="container-fluid">
           <div class="row pb-3 pt-3 flex-column flex-md-row justify-content-between ">
-            <div class="col d-flex  order-md-3 justify-content-md-end ">
+            <div class="col mb-2 d-flex  order-md-3 justify-content-md-end ">
               <span class="text-capitalize">nuovo studente</span>
                 <button class="btn ac_canvas-btn d-flex justify-content-center align-items-center " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus text-center "></i></button>          
               <div class="offcanvas offcanvas-end off_ac_canv  " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -92,22 +92,22 @@
                   <!-- BODY OFFCANVAS -->
                   <div class="offcanvas-body">
                     <form class="row">
-                      <div class="col-6 mb-3">
+                      <div class="col-12 col-md-6 mb-3">
                         <label for="name" class="form-label">Nome</label>
                         <input type="text" class="form-control" id="name">
                       </div>
-                      <div class="col-6 mb-3">
+                      <div class="col-12 col-md-6 mb-3">
                         <label for="cognome" class="form-label">Cognome</label>
                         <input type="text" class="form-control" id="cognome">
                       </div>
         
-                      <div class="col-6 mb-3">
+                      <div class="col-12 col-md-6 mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
   
                       </div>
   
-                      <div class="col-6 mb-3">  
+                      <div class="col-12 col-md-6 mb-3">  
                         <label for="exampleInputPassword1" class="form-label">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1">
                       </div>
@@ -117,17 +117,17 @@
                         <input type="text" class="form-control" id="indirizzo">
                       </div>
   
-                      <div class="col-6 mb-3">  
+                      <div class="col-12 col-md-6 mb-3">  
                         <label for="città" class="form-label">Città</label>
                         <input type="text" class="form-control" id="città">
                       </div>
   
-                      <div class="col-4 mb-3">  
+                      <div class="col-12 col-md-4 mb-3">  
                         <label for="stato" class="form-label">Stato</label>
                         <input type="text" class="form-control" id="stato">
                       </div>
   
-                      <div class="col-2 mb-3">  
+                      <div class="col-12 col-md-2 mb-3">  
                         <label for="cap" class="form-label">CAP</label>
                         <input type="text" class="form-control" id="cap">
                       </div>
@@ -154,7 +154,7 @@
             </div>
 
             <!-- BOOLEAND WITH BTN -->
-            <div class="col d-inline-block ">
+            <div class="col mb-2  d-inline-block ">
               <div>
                 <span class="fs-4 fw-bolder ">Boolean</span>
                 <span type="button" class="btn ac_btn-boolean align-middle "
@@ -184,7 +184,7 @@
             </div>
 
             <!-- LSTA ONLINE STUDENTS -->
-            <div class="col-3 d-flex flex-column order-md-2 justify-content-md-center   ">
+            <div class="col d-flex flex-column  ">
               <span>Studenti online negli ultimi 30 minuti</span>
               <span class="fs-3 ">125</span>
             </div>
@@ -201,7 +201,7 @@
             <div class="col-12  h-100  col-md-8">
               <div class="card mb-4">
                 <div class="card-header">
-                  <h2>Prossime classi</h2>
+                  <h3>Prossime classi</h3>
                 </div>
                 <div class="card-body">
                   <table class="table table-hover">
@@ -327,7 +327,7 @@
                 <!-- ACCORDION FAQ -->
                 <div class="card mb-4">
                   <div class="card-header">
-                    <h2>F.A.Q</h2>
+                    <h3>F.A.Q</h3>
                   </div>
                   <div class="card-body">
                     <div class="accordion" id="accordionExample">
@@ -338,12 +338,13 @@
                             Come aggiungere uno studente?
                           </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                           <div class="accordion-body">
                             Clicca sul + in alto nella sezione blu.
                           </div>
                         </div>
                       </div>
+
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -356,6 +357,7 @@
                           </div>
                         </div>
                       </div>
+                      
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -378,10 +380,11 @@
         
 
             <!-- TODO -->
+
             <div class="col-12 h-100 col-md-4 order-md">
               <div class="card mb-4">
                 <div class="card-header">
-                  <h2>TODO</h2>
+                  <h3>Todo</h3>
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
