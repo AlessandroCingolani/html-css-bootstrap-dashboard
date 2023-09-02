@@ -21,15 +21,6 @@ body {
   background-color: rgb(27, 114, 232);
 }
 
-.ac_canvas-btn {
-  height: 30px;
-  width: 30px;
-  margin-left: 15px;
-  font-size: 0.7rem;
-  border: 1px solid white;
-  color: white;
-}
-
 .off_ac_canv {
   width: 100% !important;
 }
@@ -69,6 +60,21 @@ nav .ac_top-nav {
 .my-icon-angles {
   font-size: .7rem;
 }
+
+.ac_canvas-btn {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  font-size: 0.7rem;
+  border: 1px solid white;
+  color: white;
+}
+
+.ac_canvas-btn:hover {
+  background-color:white;
+  color:black;
+}
+
 
 /* ASIDE BAR */
 
