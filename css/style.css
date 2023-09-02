@@ -136,7 +136,7 @@ td i {
 }
 
 .cell-bg-width {
-  width: 20%;
+  width: 150px;
 }
 
 /* MEDIA QUERY*/
@@ -144,7 +144,7 @@ td i {
 @media screen and (min-width:768px) {
 
   .cell-width {
-    width: 13%;
+    width: 100px;
   }
 }
 
