@@ -103,6 +103,7 @@ nav .ac_top-nav {
 
 th img {
   width: 30px;
+  border-radius: 50%;
   margin-right: 10px;
 }
 
@@ -120,17 +121,34 @@ th img {
   color: gray;
 }
 
+.action_ac_btn:hover {
+  background-color: gray;
+  color: white;
+}
+
 td i {
   text-align: center;
   font-size: .9rem;
 }
 
 .cell-width {
-  width: 10%;
+  width: 33%;
+}
+
+.cell-bg-width {
+  width: 20%;
 }
 
 /* MEDIA QUERY*/
+
 @media screen and (min-width:768px) {
+
+  .cell-width {
+    width: 13%;
+  }
+}
+
+@media screen and (min-width:992px) {
   .ac_aside {
     width: 150px;
   }
@@ -143,5 +161,4 @@ td i {
     width: 50% !important;
   }
   
-
 }
